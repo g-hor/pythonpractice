@@ -1,0 +1,5 @@
+name = input("What is your name?\n")
+print(f'We\'ve been expecting you, {name}.')
+print("How do you do, " + name + "?")
+print("Hi, %s." % name)
+print("{0}, whatcha up to???".format(name))

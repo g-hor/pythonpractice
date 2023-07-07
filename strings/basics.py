@@ -24,3 +24,11 @@ print("ha"*10)
 noun = "Mental health"
 adjective = "muy importante"
 print("{0} is {1}! :)".format(noun, adjective))
+print(f'{noun} is {adjective}! :D')
+
+string = "what a wonderful world"
+string.split(' ')
+" ".join(string.split(' '))
+
+enzymes = ["lactase", "fructase", "glycase"]
+print(",".join(enzymes))
