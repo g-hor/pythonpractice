@@ -24,3 +24,10 @@ for i in range(10, 0, -1):
   print(i)
 
 
+def is_sara(self, name):
+  if name == 'sara':
+    return True
+  else:
+    return False
+  
+print(map(is_sara, name_iter))
