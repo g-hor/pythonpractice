@@ -12,9 +12,9 @@ def minFlips(target):
         if target[i] == digit:
             flips += 1
             if digit == '1':
-                digit == '0'
+                digit = '0'
             else:
-                digit == '1'
+                digit = '1'
     
     return flips
 
