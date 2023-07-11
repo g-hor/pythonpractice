@@ -8,8 +8,8 @@ def minFlips(target):
     digit = '1'
     flips = 0
     
-    for num in target:
-        if num == digit:
+    for i in range(len(target)):
+        if target[i] == digit:
             flips += 1
             if digit == '1':
                 digit == '0'
@@ -20,18 +20,3 @@ def minFlips(target):
 
 print(minFlips('0011'))
 print(minFlips('10101'))
-# 0000
-# 0011
-
-
-# 11111
-# 10000
-# 10111
-# 10100
-# 10101
-
-# 00001
-# 00110
-# 01001
-# 10110
-# 10101
