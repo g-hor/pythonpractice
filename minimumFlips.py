@@ -11,10 +11,7 @@ def minFlips(target):
     for i in range(len(target)):
         if target[i] == digit:
             flips += 1
-            if digit == '1':
-                digit = '0'
-            else:
-                digit = '1'
+            digit = str((int(digit) + 1) % 2)
     
     return flips
 
